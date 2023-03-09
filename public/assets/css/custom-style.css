@@ -1,0 +1,463 @@
+/*your custom css goes here*/
+body .product_sec h6 {
+	height: 25px !important;
+}
+#gci_warehouse_prtnr tr td {
+    padding: 30px 0px !important;
+    font-size: 21px !important;
+}
+p.static_typ {
+    margin: auto 0 !important;
+}
+.iradio_square-blue {
+    display: flex !important;
+    align-items: center !important;
+}
+.cls_rnd_box {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+p.dynamic_typ {
+    margin: auto 0 !important;
+}
+input#rnd_txt_custom1_Static {
+    transform: scale(2.5) !important;
+}
+.shadow-sm.rounded .text-left .mt-3 button {
+	padding: 10px 15px;
+	font-size: 14px !important;
+}
+.product_sec h6{
+    height:auto !important;
+}
+.order-xl-0 .list-group-flush .text-left .text-truncate-2 .text-reset {
+	font-weight: bold;
+	font-size: 14px;
+}
+#delete_section:hover{
+      background:blue !important;
+}
+.dataTables_filter .aiz-table td{
+    border:1px solid #ddd;
+}
+.dataTables_filter .aiz-table th{
+    border:1px solid #ddd;
+}
+
+.cls_multiimages {
+	display: inline-block;
+	width: 48%;
+}
+.cls_multiimage_ul {
+	padding: 0px;
+}
+#job_order_delete:hover, #job_order_export:hover {
+        background-color: #428bca !important;
+        color: #fff !important;
+}
+#job_order_delete, #job_order_export {
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+@media print {
+ body{
+     font-family: Poppins, Helvetica, sans-serif !important;
+       font-size: 20px !important;
+ }
+#micustomReturn {
+	width: 100%;
+}
+
+
+}
+
+.card-body.warehouseResponse {
+	overflow-y: scroll;
+	height: 480px;
+}
+/*menu*/
+
+.header_menu {
+	background-color: #eeeeee;
+	width: 100%;
+	display: block;
+}
+.nev_menu nav ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.nev_menu nav ul li {
+	display: inline-block;
+	padding: 12px 20px;
+	position: relative;
+}
+.nev_menu nav ul li .droupdwon-menu {
+	display: none;
+}
+.nev_menu nav ul li .droupdwon-menu ul li {
+	display: block !important;
+}
+.nev_menu nav ul li a {
+	font-size: 15px;
+	letter-spacing: 1px;
+	color:#000;
+	font-weight: normal;
+}
+.nev_menu nav ul li:hover {
+	background-color: #337ab7;
+}
+.nev_menu nav ul li.active{
+    background-color: #337ab7;
+}
+.nev_menu nav ul li.active a{
+    color:#fff !important;
+}
+
+.nev_menu nav ul li:hover a {
+	color:#fff !important;
+}
+.nev_menu nav ul li .droupdwon-menu ul li a{
+    color:#000 !important;
+    font-size:14px !important;
+}
+.nev_menu nav ul li:hover .droupdwon-menu {
+	display: block;
+	position: absolute;
+	background-color: #fff;
+	left: 0px;
+	top: 45px;
+	z-index:9999;
+	width:220px;
+}
+.nev_menu nav ul li .droupdwon-menu ul li:hover a {
+	color: #fff !important;
+}
+.nev_menu nav ul li .droupdwon-menu ul li a {
+	color: #000;
+}
+.mi_cus_header{
+    justify-content: end !important;
+}
+.mi_cus_header_input{
+    width:50%;
+    justify-content: end;
+}
+
+/**/
+.nev_menu nav .sub-cat-menu .card-columns {
+	column-count: inherit;
+}
+.nev_menu nav .sub-cat-menu .card-columns .card {
+	background-color: transparent;
+	border: none !important;
+	display: block;
+	margin-bottom: 0px;
+}
+.nev_menu nav .sub-cat-menu .card-columns .card ul {
+	margin-bottom: 0px !important;
+}
+.nev_menu nav .sub-cat-menu .card-columns .card ul li {
+	display: block;
+	border-bottom: none !important;
+	padding: 10px 10px !important;
+	margin-bottom: 0px !important;
+}
+.nev_menu nav .sub-cat-menu .card-columns .card ul li:hover a{
+    color:#fff !important;
+}
+.nev_menu nav .sub-cat-menu{
+    background-color:#fff;
+    left:0px;
+    width:180px;
+    top:47px;
+}
+.nev_menu nav .sub-cat-menu .card-columns .card ul li a {
+	padding-left: 10px;
+	color:#000 !important;
+}
+
+.warehouseResponse table tr th, .warehouseResponse table tr td {
+	padding: 20px !important;
+	font-size: 18px !important;
+}
+/*navbar-css*/
+.nev_menu nav ul li .droupdwon-menu ul li.multi_prant_li {
+	position: relative;
+}
+.nev_menu nav ul li .droupdwon-menu ul li.multi_prant_li a{
+    color:#000;
+}
+.nev_menu nav ul li .droupdwon-menu ul li.multi_prant_li:hover .multi_child_nav li a span{
+    background-color:#fff !important;
+}
+ul.multi_child_nav {
+	display: none;
+}
+.nev_menu nav ul li .droupdwon-menu ul li.multi_prant_li:hover .multi_child_nav {
+	display: block;
+	position: absolute;
+	right: -101px;
+	z-index: 99999;
+	background-color: #fff;
+	top: 0;
+}
+.top-navbar {
+	background-color: #337ab7 !important;
+}
+.top-navbar ul.list-inline li a {
+	color: #fff !important;
+	opacity: 1 !important;
+}
+.top-navbar ul.list-inline li a span {
+	color: #fff !important;
+	opacity: 1 !important;
+}
+.top-navbar ul.list-inline li .dropdown-menu li a.dropdown-item span {
+	color: #000 !important;
+}
+.top-navbar ul.list-inline li .dropdown-menu li:hover a.dropdown-item span{
+    color:#fff !important;
+}
+.top-navbar ul.list-inline li .dropdown-menu li a.dropdown-item {
+	color: #000 !important;
+}
+.top-navbar ul.list-inline li .dropdown-menu li:hover a.dropdown-item{
+    color:#fff !important;
+}
+.nev_menu nav ul li:first-child::before{
+     display: none;
+}
+.nev_menu nav ul li::before {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	right: 0;
+	top: 20px;
+	background-image: url('https://gcijewel.com/public/uploads/all/droupdwon1.png');
+	background-repeat: no-repeat;
+	background-size: 8px;
+}
+.nev_menu nav ul li:hover::before{
+    filter: invert(100%);
+}
+.nev_menu nav ul li .droupdwon-menu li::before{
+    display: none;
+}
+/*pup*/
+#watch_re_model .modal-dialog {
+	max-width: 900px !important;
+	min-height:auto;
+}
+#watch_re_model .modal-dialog .modal-content .modal-body {
+	max-height: 100% !important;
+}
+#watch_re_model .modal-dialog .modal-content .modal-body .form-group {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0px;
+}
+#watch_re_model .modal-dialog .modal-content .modal-body .form-group input.form-control {
+	margin-bottom: 8px !important;
+	height: 35px;
+}
+#watch_re_model .modal-dialog .modal-content .modal-body .form-group textarea {
+	height: 100px;
+}
+/**/
+#jewelry_re_model .modal-dialog {
+	max-width: 900px !important;
+	min-height:auto;
+}
+#jewelry_re_model .modal-dialog .modal-content .modal-body {
+	max-height: 100% !important;
+}
+#jewelry_re_model .modal-dialog .modal-content .modal-body .form-group {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0px;
+}
+#jewelry_re_model .modal-dialog .modal-content .modal-body .form-group input.form-control {
+	margin-bottom: 8px !important;
+	height: 35px;
+}
+#jewelry_re_model .modal-dialog .modal-content .modal-body .form-group textarea {
+	height: 100px;
+}
+/**/
+#custome_pi_model .modal-dialog {
+	max-width: 900px !important;
+	min-height:auto;
+}
+#custome_pi_model .modal-dialog .modal-content .modal-body {
+	max-height: 100% !important;
+}
+#custome_pi_model .modal-dialog .modal-content .modal-body .form-group {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 0px;
+}
+#custome_pi_model .modal-dialog .modal-content .modal-body .form-group input.form-control {
+	margin-bottom: 8px !important;
+	height: 35px;
+}
+#custome_pi_model .modal-dialog .modal-content .modal-body .form-group textarea {
+	height: 100px;
+}
+/**/
+/*.sell_watch_page{*/
+
+/*}*/
+.cls_selltous .row {
+	margin: 14px 0px;
+}
+.cls_selltous .row .col-md-2 {
+	padding-left: 0px;
+}
+.cls_selltous h2 {
+	margin-bottom: 40px;
+}
+.cls_selltous #quote_image {
+	width: 100%;
+}
+.cls_selltous p.cls_sellwatch {
+	margin-bottom: 5px;
+}
+.cls_selltous p.cls_sellwatch strong {
+	font-size: 16px;
+}
+.cls_selltous p.cls_sellwatch span {
+	font-size: 14px;
+}
+.sellmywatch_row .contact_form.form_list {
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+.sellmywatch_row .contact_form.form_list .input-box textarea {
+	width: 100%;
+	padding: 10px 10px;
+}
+.sellmywatch_row .contact_form.form_list .row {
+	margin-bottom: 10px;
+}
+.sellmywatch_row .contact_form.form_list label {
+	font-size: 14px;
+}
+.watch_servies_page {
+	width: 100%;
+	padding: 40px 0px;
+}
+.watch_servies_section {
+	width: 50%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+.watch_Jewelry_servies_section {
+	width: 94%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.mi_watch_form .form-group select {
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #e2e5ec;
+	height: 43px;
+	padding: 6px;
+}
+.cls_content_footer_static {
+	padding: 20px 30px;
+}
+.watch_Jewelry_servies_section h3 {
+	font-size: 30px;
+	margin-bottom: 20px !important;
+}
+.watch_Jewelry_servies_section p.text_sec_point {
+	margin-bottom: 0px;
+	font-size: 22px;
+	line-height: 35px;
+	color:#000;
+}
+.watch_Jewelry_servies_section p.disclaimer_text {
+	margin-top:25px;
+	font-size:12px;
+	font-weight: bold;
+	margin-bottom:25px;
+	color:#000;
+}
+.mi_btn_watch_Jewelry_servies {
+	background-color: #337ab7;
+	color: #fff;
+	border-radius:40px;
+	padding: 10px 15px;
+	margin-left:20px;
+}
+.watch_Jewelry_servies_section .row {
+	margin:0px;
+}
+.watch_Jewelry_servies_section .col-md-6 {
+	padding:0px;
+}
+/*.jewelry_service_left {*/
+/*	background-image: url('https://gcijewel.com/public/uploads/all/watch1.png');*/
+/*	background-size: cover;*/
+/*	background-repeat: no-repeat;*/
+/*}*/
+.jewelry_service_right {
+	width: 100%;
+	min-height: 352px;
+}
+.jewelry_service_right img{
+    width:95%;
+    padding-top:12px;
+}
+.nev_menu nav ul li .droupdwon-menu ul li.miCustomLiMini:hover .miCustomMiniDropDown {
+	display: block !important;
+	left: 191px !important;
+	top: 0;
+}
+.nev_menu nav ul li .droupdwon-menu.miCustomMiniDropDown {
+	display: none;
+}
+.nev_menu nav ul li .droupdwon-menu.miCustomMiniDropDown ul li a {
+	color: #000 !important;
+}
+.nev_menu nav ul li .droupdwon-menu.miCustomMiniDropDown ul li:hover a {
+	color: #fff !important;
+}
+.droupdwon-menu.miCustomMiniDropDown.miCustomMiniProp {
+    width: 550px !important;
+}
+.droupdwon-menu.miCustomMiniDropDown.miCustomMiniProp ul li {
+    display: inline-block !important;
+    width: 32% !important;
+}
+.mi_watch_service {
+	width: 100%;
+	margin: 20px 0px;
+	height: 500px;
+	
+}
+
+.mi_cust_img{
+object-fit: contain;
+height: 250px;
+margin-top: -2px;
+}
+.home_category_sec .feature-box img {
+	height: 200px;
+	object-fit: cover;
+}
+.watch_Jewelry_servies_section img {
+    display: none;
+}
